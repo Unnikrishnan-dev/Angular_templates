@@ -1,0 +1,17 @@
+.Inline_Block {
+    display: inline-block; /* this will keep the label and text in a single line along with respecting width and height */
+    width: 80px;
+}
+
+.margin_bottom_5 {
+    margin-bottom: 5px;
+}
+
+.container1 {
+    display: flex; /* Add this to enable centering */
+    flex-direction: column; /* Keeps form fields stacked */
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    height: 100vh; /* Full viewport height */
+}
+

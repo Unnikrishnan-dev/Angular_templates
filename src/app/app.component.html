@@ -1,0 +1,23 @@
+<div class="container1">
+  <form [formGroup]="profileInfo" (ngSubmit)="onSubmit()">
+    <div class="margin_bottom_5">
+      <label class="Inline_Block" for="name" >Name: &nbsp;</label>
+      <input type="text" formControlName="name" />
+    </div>
+    <div class="margin_bottom_5">
+      <label class="Inline_Block" for="email">Email: &nbsp;</label>
+      <input type="text" formControlName = "email" />
+    </div>
+    <div class="margin_bottom_5">
+      <label class="Inline_Block" for="phone">Ph No: &nbsp;</label>
+      <input type="text" formControlName = "phno">
+    </div>
+    <div class="margin_bottom_5">
+      <label class="Inline_Block" for="address">Address: &nbsp;</label>
+      <input type="text" formControlName = "address">
+    </div>
+    <div class="margin_bottom_5">
+      <button class="btn btn-primary ">Save</button>
+    </div>
+  </form>
+</div>
