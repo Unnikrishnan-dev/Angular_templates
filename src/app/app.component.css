@@ -1,17 +1,49 @@
-.Inline_Block {
-    display: inline-block; /* this will keep the label and text in a single line along with respecting width and height */
-    width: 80px;
+/* display : flex - this makes the layout a flex container which means items inside this layout are childrens of flex container, you can 
+structure it either in horizontal or vertical order. 
+*/
+/* flex-direction: column - this will make the items in vertical order. 
+*/
+/* height: 100vh - which means this layout can take 100 percentage of the visible website view port. 
+*/
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.margin_bottom_5 {
-    margin-bottom: 5px;
+/*
+height:60px : this means the header will have a fix height of 60 px
+background-color : this means header will have the given back ground colour
+*/
+.header {
+    height: 60px;
+    background-color: #f1f1f1;
 }
 
-.container1 {
-    display: flex; /* Add this to enable centering */
-    flex-direction: column; /* Keeps form fields stacked */
-    justify-content: center; /* Centers vertically */
-    align-items: center; /* Centers horizontally */
-    height: 100vh; /* Full viewport height */
+/*
+display : flex - Here childrens(contents and sidebar) of flex container will aligh horizontal as the default behaviour of flex box is horizontal
+flex 1: will allow to expand to take up the remaining space in the container after all other items have been sized
+*/
+.main {
+    display: flex;
+    flex: 1;
 }
 
+/*
+flex 1: Fills all remaining horizontal space (after sidebar).
+padding: 16px: Adds some spacing inside the content area.
+overflow-y: auto: Adds vertical scroll if content becomes too long.
+*/
+.content {
+    flex: 1;
+    padding: 16px;
+}
+
+/*
+width: 200px: Fixes the width of the sidebar.
+background-color: Just styling — helps separate sidebar from the main content visually.
+*/
+.side_bar {
+    width: 200px;
+    background-color: #e0e0e0;
+}

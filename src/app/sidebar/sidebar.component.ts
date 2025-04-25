@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
+
+  showUserDetails() {
+   //alert("User clicked")
+  }
+
+  showActions() {
+   // alert("Actions clicked")
+  }
+
+  showSettings() {
+    //alert("Settings clicked")
+  }
 }

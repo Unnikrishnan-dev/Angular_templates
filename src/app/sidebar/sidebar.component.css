@@ -1,0 +1,21 @@
+/*
+display : flex - This will make the side_bar a flex container which is vulnarable to structure horizontal or vertical
+flex-direction : coloum - This will make the sibe_bar aligns in veritical order
+padding : 15 - add 15px padding
+cursor:pointer - This will introduce the the click hand symbol while on hover
+*/
+.side_bar {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #244e32;
+}
+
+/*
+colour: #244e32 - This will add colour on hover
+*/
+.side_bar a:hover {
+    color: #244e32;
+}
