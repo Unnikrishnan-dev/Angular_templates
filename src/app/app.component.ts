@@ -8,7 +8,8 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class AppComponent {
   title = 'routes';
-  profileInfo: FormGroup
+  profileInfo: FormGroup;
+  profileData = {name:"unni",age :27}
   constructor(fb:FormBuilder) {
    this.profileInfo = fb.group({
     name:[''],
@@ -17,6 +18,8 @@ export class AppComponent {
     address:['']
    })
   }
+
+  
 
   onSubmit(){
   console.log(this.profileInfo.value)

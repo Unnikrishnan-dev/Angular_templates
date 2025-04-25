@@ -1,5 +1,5 @@
-import { Component, inject  } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Component, inject,   } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-cart',
@@ -8,6 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class CartComponent {
 
+ // profileData = input.required()
   private readonly router = inject(ActivatedRoute);
 
   ngOnInit() {
