@@ -16,7 +16,7 @@ height:60px : this means the header will have a fix height of 60 px
 background-color : this means header will have the given back ground colour
 */
 .header {
-    height: 60px;
+    height: 100px;
     background-color: #f1f1f1;
 }
 
@@ -46,4 +46,10 @@ background-color: Just styling — helps separate sidebar from the main content 
 .side_bar {
     width: 200px;
     background-color: #e0e0e0;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    background-color: #f1f1f1;
 }

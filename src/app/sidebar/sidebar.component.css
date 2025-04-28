@@ -10,7 +10,6 @@ cursor:pointer - This will introduce the the click hand symbol while on hover
     padding: 15px;
     cursor: pointer;
     font-weight: bold;
-    color: #244e32;
 }
 
 /*
@@ -18,4 +17,11 @@ colour: #244e32 - This will add colour on hover
 */
 .side_bar a:hover {
     color: #244e32;
+}
+
+.mg_10_bottom {
+    margin-bottom : 10px;
+    text-decoration: none;
+    color: #244e32;
+    font-size: 30px;
 }
