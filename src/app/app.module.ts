@@ -8,7 +8,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContentsComponent } from './contents/contents.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +15,7 @@ import { ContentsComponent } from './contents/contents.component';
     CartComponent,
     HeaderComponent,
     SidebarComponent,
-    FooterComponent,
-    ContentsComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,

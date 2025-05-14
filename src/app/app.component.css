@@ -50,6 +50,6 @@ background-color: Just styling — helps separate sidebar from the main content 
 
 .footer {
     height: 80px;
-    display: flex;
+    display:flex;
     background-color: #f1f1f1;
 }

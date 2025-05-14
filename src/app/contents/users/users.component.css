@@ -1,0 +1,9 @@
+.div_align{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+    width: 100%;
+    border:2px solid rgb(233, 233, 238);
+}

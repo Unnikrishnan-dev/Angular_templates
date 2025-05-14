@@ -1,11 +1,11 @@
 <div class="side_bar">
-    <a class="mg_10_bottom" (click)="showUserDetails()">
+    <a class="mg_10_bottom" [routerLink]="['./users']">
         User
     </a>
-    <a class="mg_10_bottom" (click)="showActions()">
+    <a class="mg_10_bottom" [routerLink]="['/actions']">
         Actions
     </a>
-    <a class="mg_10_bottom" (click)="showSettings()">
+    <a class="mg_10_bottom" [routerLink]="['/settings']">
         Settings
     </a>
 </div>
